@@ -1,0 +1,136 @@
+
+
+.sidebar-menu-wrapper{
+    padding: 30px 10px;
+}
+
+.sidebar-menu-wrapper ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar-menu-wrapper ul a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.sidebar-menu-wrapper .sidebar-menu-item {
+    margin-bottom: 10px;
+}
+.sidebar-menu-wrapper .sidebar-menu-item:last-child {
+    margin-bottom: 0;
+}
+.sidebar-menu-wrapper .sidebar-menu-item>a{
+    font-size: 12px;
+    color:#fff;
+    font-weight: 500;
+    border-radius: 50px;
+    display: block;
+    padding: 9px 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#129af5+0,3949db+100 */
+background: #129af5; /* Old browsers */
+background: -moz-linear-gradient(left, #129af5 0%, #3949db 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #129af5 0%,#3949db 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #129af5 0%,#3949db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#129af5', endColorstr='#3949db',GradientType=1 ); /* IE6-9 */
+
+    
+}
+
+.sidebar-menu-wrapper .sidebar-menu-item>a>i{
+    padding-right: 10px;
+}
+
+.sidebar-menu-wrapper .sidebar-menu-item>.submenu-item-wrapper{
+    display: block;
+    padding-left: 15px;
+
+}
+.sidebar-menu-wrapper .sidebar-menu-item>.submenu-item-wrapper>li>a{
+    color: #000000;
+    font-weight: 600;
+    font-size: 12px;
+    display: block;
+    line-height: 1;
+    padding: 12px 0;
+}
+
+.sidebar-menu-wrapper .sidebar-menu-item>.submenu-item-wrapper a i {
+    padding-right: 6px;
+    font-size: 10px;
+    color: #129af5;
+}
+.sidebar-menu-wrapper .sidebar-menu-item>.submenu-item-wrapper .submenu-item-wrapper li a{
+    color: #6B6B6B;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    padding: 12px 0;
+    padding-left: 25px;
+}
+.sidebar-menu-item>a {
+    position: relative;
+}
+.sidebar-menu-item>a::after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    content: "\F105";
+    font-family: "FONT AWESOME 5 FREE";
+    font-weight: 900;
+    color: #ffffff;
+    transition: all .4s ease;
+}
+.sidebar-menu-item.collapse-in>a::after {
+    content: "\F107";
+    font-family: "FONT AWESOME 5 FREE";
+    font-weight: 900;
+    
+}
+.sidebar-submenu-item>a{
+    position: relative;
+}
+.sidebar-submenu-item>a::after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    content: "\F105";
+    font-family: "FONT AWESOME 5 FREE";
+    font-weight: 900;
+    color: #000000;
+    transition: all .4s ease;
+}
+.sidebar-submenu-item.collapse-in>a::after {
+    content: "\F107";
+    font-family: "FONT AWESOME 5 FREE";
+    font-weight: 900;
+    
+}
+.sidebar-menu-item::before {}
+.sidebar-menu-item>.submenu-item-wrapper {
+    
+    height: 0;
+    overflow: hidden;
+    
+    transition: all .5s ease;
+}
+.sidebar-menu-item.collapse-in>.submenu-item-wrapper {
+    
+    height: auto;
+    transition: all .4s ease-in-out;
+   
+}
+.sidebar-menu-wrapper .sidebar-submenu-item>.submenu-item-wrapper {
+    
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+}
+.sidebar-menu-wrapper .sidebar-submenu-item.collapse-in>.submenu-item-wrapper {
+    max-height: 100%;
+    
+}
+.sidebar-menu-wrapper .sidebar-menu-item>a .submenu-item-wrapper .sidebar-submenu-item>a i{}
+
+.sidebar-menu-wrapper {}

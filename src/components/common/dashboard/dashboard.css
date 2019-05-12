@@ -1,0 +1,12 @@
+.dashboard-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dashboard-sidebar {
+    width: 25%;
+}
+.dashboard-contentbar {
+    width: 75%;
+}
+.dashboard-header {}
+.dashboard-maincontent {}
