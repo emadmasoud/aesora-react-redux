@@ -4,7 +4,7 @@ import {withRouter} from 'react-router-dom'
 import SubmenuItem from './SubMenuItem'
 import './sidebar-menu.css'
 import {fetchMenuList} from '../../../../store/actions/navigationAction/navigationAction'
-import logo from './../../../../asset/images/aesoraems.png'
+import logos from './../../../../asset/images/aesoraems.png'
 export class Aside extends Component {
 
     componentDidMount() {
@@ -40,7 +40,7 @@ export class Aside extends Component {
         return (
             <div>
                 <div className="ems-logo">
-                    <img src={logo} alt=""/>
+                    <img src={logos} alt=""/>
                 </div>
                 <div className="sidebar-menu-wrapper" id='navWrap'>
 
